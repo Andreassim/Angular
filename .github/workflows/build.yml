@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubunto-lastest
+    runs-on: ubunto-latest
 
     steps:
       - uses: action/checkout@v2
