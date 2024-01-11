@@ -55,7 +55,7 @@
 			</trans-unit>
 			<trans-unit id="1449281077559794761" datatype="html">
 				<source>The cat is yellow</source>
-				<target>Katten er gul</target>
+				<target>Katten er gol</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">9</context>
