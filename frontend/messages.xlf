@@ -31,9 +31,17 @@
         <source>Take it easy!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">7,9</context>
         </context-group>
         <note priority="1" from="description">Hakuna Matata</note>
+      </trans-unit>
+      <trans-unit id="1449281077559794761" datatype="html">
+        <source>The cat is yellow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">The cat is yellow</note>
       </trans-unit>
     </body>
   </file>
