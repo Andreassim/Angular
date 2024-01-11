@@ -1,1 +1,17 @@
+name: Build
 
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubunto-lastest
+
+    steps:
+      - uses: action/checkout@v2
+      - name: Hello world
+        run: echo Hello World!
+        
