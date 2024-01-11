@@ -9,10 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v4.0.1
       - name: Trigger pull request
-        uses: Andreassim/LokaliseAction@v1.1
+        uses: Andreassim/LokaliseAction@v1.2
         with:
           API_KEY: ${{ secrets.LOKALISE_API_TOKEN }}
           PROJECT_KEY: ${{ secrets.LOKALISE_PROJECT_TOKEN }}
