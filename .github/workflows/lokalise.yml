@@ -1,0 +1,21 @@
+name: Fetch translations
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4.0.1
+      - name: Trigger pull request
+        run: |
+          npm install @lokalise/node-api
+          node
+          const token = ${{ secrets.LOKALISE_API_TOKEN }};
+          const lokaliseApi = new LokaliseApi({ apiKey: token});
+          lokaliseApi.files().download( {{ secrets.LOKALISE_PROJECT_TOKEN}}, {format: "xlf", original_filenames: false, bundle_structure: "frontend/src/i18n/messages.%LANG_ISO%.%FORMAT%", triggers: ['github']});
+          
