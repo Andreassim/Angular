@@ -35,7 +35,7 @@
 			</trans-unit>
 			<trans-unit id="1449281077559794761" datatype="html">
 				<source>The cat is yellow</source>
-				<target>El gato es amarillo</target>
+				<target>el gato es amarillo</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">9</context>
@@ -44,7 +44,7 @@
 			</trans-unit>
 			<trans-unit id="2153350315074490263" datatype="html">
 				<source>The dog is brown</source>
-				<target>El perro es marrón</target>
+				<target>El perro es cafe</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">3,5</context>
@@ -125,6 +125,14 @@
 			</trans-unit>
 			<trans-unit id="6600300592140048011" datatype="html">
 				<source>People are running on the hills</source>
+				<target>La gente corre por las colinas.</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">18,19</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7052293771436570695" datatype="html">
+				<source>the People are running on the hills</source>
 				<target></target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
