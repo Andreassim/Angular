@@ -16,6 +16,15 @@
 			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
 		</header>
 		<body>
+			<trans-unit id="417867979310624085" datatype="html">
+				<source>Donkey</source>
+				<target>Burro</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">11,12</context>
+				</context-group>
+				<note priority="1" from="description">Donkey</note>
+			</trans-unit>
 			<trans-unit id="1449281077559794761" datatype="html">
 				<source>The cat is yellow</source>
 				<target>El gato es amarillo</target>
@@ -33,6 +42,24 @@
 					<context context-type="linenumber">3,5</context>
 				</context-group>
 				<note priority="1" from="description">The dog is brown</note>
+			</trans-unit>
+			<trans-unit id="2664250403553510495" datatype="html">
+				<source>This is a test</source>
+				<target>Esto es una prueba</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">13,14</context>
+				</context-group>
+				<note priority="1" from="description">This is a test</note>
+			</trans-unit>
+			<trans-unit id="3761397790726791902" datatype="html">
+				<source>This is another test</source>
+				<target></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">14,15</context>
+				</context-group>
+				<note priority="1" from="description">This is a another test</note>
 			</trans-unit>
 			<trans-unit id="4449005599092984215" datatype="html">
 				<source>Messages found: <x id="INTERPOLATION" equiv-text="{{messages}}"/></source>
