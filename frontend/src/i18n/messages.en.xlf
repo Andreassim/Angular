@@ -74,6 +74,14 @@
 				</context-group>
 				<note priority="1" from="description">This is a another test</note>
 			</trans-unit>
+			<trans-unit id="4339754543315488183" datatype="html">
+				<source>People are running on the hill</source>
+				<target>People are running on the hill</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">18,19</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="4449005599092984215" datatype="html">
 				<source>Messages found: <x id="INTERPOLATION" equiv-text="{{messages}}"/></source>
 				<target>Messages found: <x id="INTERPOLATION" equiv-text="{{messages}}"/></target>
