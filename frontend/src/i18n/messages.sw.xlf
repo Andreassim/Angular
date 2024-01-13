@@ -98,7 +98,7 @@
 			</trans-unit>
 			<trans-unit id="5488513834982854119" datatype="html">
 				<source>Take it easy!</source>
-				<target>Chukua polepole!</target>
+				<target>Usijali!</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">7</context>
@@ -125,6 +125,14 @@
 			</trans-unit>
 			<trans-unit id="6600300592140048011" datatype="html">
 				<source>People are running on the hills</source>
+				<target>Watu wanakimbia kwenye vilima</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">18,19</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7052293771436570695" datatype="html">
+				<source>the People are running on the hills</source>
 				<target></target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
