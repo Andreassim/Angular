@@ -5,6 +5,10 @@
 			<tool tool-id="lokalise.com" tool-name="Lokalise"></tool>
 		</header>
 		<body>
+			<trans-unit id="my_test">
+				<source>this a test</source>
+				<target>esto es una prueba</target>
+			</trans-unit>
 			<trans-unit id="welcome_header">
 				<source>Hello world!</source>
 				<target>¡Hola Mundo!</target>
@@ -52,9 +56,18 @@
 				</context-group>
 				<note priority="1" from="description">This is a test</note>
 			</trans-unit>
+			<trans-unit id="3135853758169070209" datatype="html">
+				<source>This is also a test</source>
+				<target></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">16,17</context>
+				</context-group>
+				<note priority="1" from="description">This is also a test</note>
+			</trans-unit>
 			<trans-unit id="3761397790726791902" datatype="html">
 				<source>This is another test</source>
-				<target></target>
+				<target>Esta es otra prueba</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">14,15</context>
@@ -82,7 +95,7 @@
 			</trans-unit>
 			<trans-unit id="5686189736353229782" datatype="html">
 				<source>This is the third test</source>
-				<target></target>
+				<target>Esta es la tercera prueba.</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">15,16</context>
