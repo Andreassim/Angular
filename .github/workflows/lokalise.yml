@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Trigger pull request
-        uses: Andreassim/LokaliseAction@v1.9
+        uses: Andreassim/LokaliseAction@v1.10
         with:
           API_KEY: ${{ secrets.LOKALISE_API_TOKEN }}
           PROJECT_KEY: ${{ secrets.LOKALISE_PROJECT_TOKEN }}
