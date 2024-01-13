@@ -33,6 +33,14 @@
 				</context-group>
 				<note priority="1" from="description">Donkey</note>
 			</trans-unit>
+			<trans-unit id="1091964637428066028" datatype="html">
+				<source>the People are running on the hills and having fun</source>
+				<target>Folk løber på bakkerne og har det sjovt</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">18,19</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="1449281077559794761" datatype="html">
 				<source>The cat is yellow</source>
 				<target>Katten er gul</target>
