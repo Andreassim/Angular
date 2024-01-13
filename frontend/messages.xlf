@@ -83,8 +83,8 @@
         </context-group>
         <note priority="1" from="description">This is also a test</note>
       </trans-unit>
-      <trans-unit id="4339754543315488183" datatype="html">
-        <source>People are running on the hill</source>
+      <trans-unit id="6600300592140048011" datatype="html">
+        <source>People are running on the hills</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">18,19</context>
