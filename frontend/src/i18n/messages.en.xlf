@@ -92,6 +92,14 @@
 					<context context-type="linenumber">20,21</context>
 				</context-group>
 			</trans-unit>
+			<trans-unit id="3089675438692441980" datatype="html">
+				<source>This is for my examination</source>
+				<target>This is for my examination</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="3135853758169070209" datatype="html">
 				<source>This is also a test</source>
 				<target>This is also a test</target>
