@@ -2,73 +2,19 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="5701618810648052610" datatype="html">
-        <source>Title</source>
+      <trans-unit id="3337961331516487984" datatype="html">
+        <source>Welcome to the exam</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">1,3</context>
         </context-group>
         <note priority="1" from="description">FrontpageTitle</note>
       </trans-unit>
-      <trans-unit id="2153350315074490263" datatype="html">
-        <source>The dog is brown</source>
+      <trans-unit id="3683231710138827964" datatype="html">
+        <source>My name is <x id="INTERPOLATION" equiv-text="{{name}}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">The dog is brown</note>
-      </trans-unit>
-      <trans-unit id="4449005599092984215" datatype="html">
-        <source>Messages found: <x id="INTERPOLATION" equiv-text="{{messages}}"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">5,7</context>
-        </context-group>
-        <note priority="1" from="description">amount of messages found after query to API</note>
-        <note priority="1" from="meaning">Messages found</note>
-      </trans-unit>
-      <trans-unit id="1449281077559794761" datatype="html">
-        <source>The cat is yellow</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-        <note priority="1" from="description">The cat is yellow</note>
-      </trans-unit>
-      <trans-unit id="417867979310624085" datatype="html">
-        <source>Donkey</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">9,11</context>
-        </context-group>
-        <note priority="1" from="description">Donkey</note>
-      </trans-unit>
-      <trans-unit id="1091964637428066028" datatype="html">
-        <source>the People are running on the hills and having fun</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">11,13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2778086115850075587" datatype="html">
-        <source>I love being examined</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">13,15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2456758641213302437" datatype="html">
-        <source>Welcome to the examination</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15,17</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="147605800789436279" datatype="html">
-        <source>Its January</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">17,18</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
     </body>
