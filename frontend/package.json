@@ -2,9 +2,10 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
+    "localize": "node ./src/scripts/updatei18n.js",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run localize && ng build --localize",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
