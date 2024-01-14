@@ -27,19 +27,11 @@
         <note priority="1" from="description">amount of messages found after query to API</note>
         <note priority="1" from="meaning">Messages found</note>
       </trans-unit>
-      <trans-unit id="5488513834982854119" datatype="html">
-        <source>Take it easy!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-        <note priority="1" from="description">Hakuna Matata</note>
-      </trans-unit>
       <trans-unit id="1449281077559794761" datatype="html">
         <source>The cat is yellow</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">9,11</context>
+          <context context-type="linenumber">7,9</context>
         </context-group>
         <note priority="1" from="description">The cat is yellow</note>
       </trans-unit>
@@ -47,54 +39,29 @@
         <source>Donkey</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">11,13</context>
+          <context context-type="linenumber">9,11</context>
         </context-group>
         <note priority="1" from="description">Donkey</note>
-      </trans-unit>
-      <trans-unit id="2664250403553510495" datatype="html">
-        <source>This is a test</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">13,14</context>
-        </context-group>
-        <note priority="1" from="description">This is a test</note>
-      </trans-unit>
-      <trans-unit id="3761397790726791902" datatype="html">
-        <source>This is another test</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">14,15</context>
-        </context-group>
-        <note priority="1" from="description">This is a another test</note>
-      </trans-unit>
-      <trans-unit id="5686189736353229782" datatype="html">
-        <source>This is the third test</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15,16</context>
-        </context-group>
-        <note priority="1" from="description">This is the third test</note>
-      </trans-unit>
-      <trans-unit id="3135853758169070209" datatype="html">
-        <source>This is also a test</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">16,18</context>
-        </context-group>
-        <note priority="1" from="description">This is also a test</note>
       </trans-unit>
       <trans-unit id="1091964637428066028" datatype="html">
         <source>the People are running on the hills and having fun</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">18,20</context>
+          <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2778086115850075587" datatype="html">
         <source>I love being examined</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">20,21</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2456758641213302437" datatype="html">
+        <source>Welcome to the examination</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
     </body>
