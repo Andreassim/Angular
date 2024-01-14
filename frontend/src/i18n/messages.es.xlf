@@ -101,6 +101,23 @@
 				</context-group>
 				<note priority="1" from="description">This is also a test</note>
 			</trans-unit>
+			<trans-unit id="3337961331516487984" datatype="html">
+				<source>Welcome to the exam</source>
+				<target>Bienvenido al examen</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">1,3</context>
+				</context-group>
+				<note priority="1" from="description">FrontpageTitle</note>
+			</trans-unit>
+			<trans-unit id="3683231710138827964" datatype="html">
+				<source>My name is <x id="INTERPOLATION" equiv-text="{{name}}"/></source>
+				<target>Mi nombre es <x id="INTERPOLATION" equiv-text="{{name}}"/></target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">3</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="3761397790726791902" datatype="html">
 				<source>This is another test</source>
 				<target>Esta es otra prueba</target>
